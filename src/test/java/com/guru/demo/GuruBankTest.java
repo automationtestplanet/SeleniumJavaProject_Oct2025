@@ -44,7 +44,7 @@ public class GuruBankTest {
 
         WebElement userNameWebElement = driver.findElement(By.name("uid"));
         userNameWebElement.sendKeys("mngr652220");
-
+//
         driver.findElement(By.name("password")).sendKeys("pyjAjAj");
         driver.findElement(By.name("btnLogin")).click();
 
